@@ -24,14 +24,12 @@ div img{
 }
 header{
     background-color: #122a57;
-    height: 100px;
+    height: 80px;
     display: flex;
-    align-items: center;
+    align-items: cente r;
     color: #fff;
 }
-.list-items li a{
-    color: white;
-}
+
 header .list-items{
     display: flex;
     max-width: 260px;
@@ -41,6 +39,9 @@ header .list-items{
 }
 header .menu{
     justify-content: space-between;
+}
+.list-items li a{
+    color: white;
 }
 .apresentacao{
     height: 100vh;
@@ -80,7 +81,7 @@ header .menu{
     margin-bottom: 20px;
 }
 #quem-somos h2::before{
-    content:  "";
+    content:   "";
     height: 50px;
     width: 5px;
     margin-right: 5px;
@@ -100,7 +101,7 @@ header .menu{
     width: 100%;
 }
 #servicos{
-    flex-direction: column;
+    flex-direction: column; 
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -117,7 +118,7 @@ header .menu{
     text-align: center;   
 }
 .item-servico a{
-    width: 120px;
+    width: 220px;
     background-color: white;
     border-radius: 30px;
     height: 50px;
@@ -209,7 +210,7 @@ footer .footer{
 }
 
 /* mobile */
-@media(min-width: 992px){
+@media(max-width: 992px){
     .flex-container{
         flex-direction: column;
     }
@@ -223,7 +224,7 @@ footer .footer{
     #quem-somos{
         flex-direction: column-reverse;
     }
-    #quem-somos img{
+    #quem-somos img{ 
         min-width: 320px;
         margin: auto;
     }
